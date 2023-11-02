@@ -19,12 +19,14 @@
     <modules>
         <!-- HelloWorld-->
         <module>demo-hello-world</module>
+        <module>demo-netty</module>
     </modules>
 
     <!-- 依赖版本管理 -->
     <properties>
         <java.version>1.8</java.version>
         <hutool.version>5.4.5</hutool.version>
+        <netty.version>4.1.86.Final</netty.version>
     </properties>
 
     <!-- 依赖管理 -->
@@ -63,6 +65,13 @@
             </plugin>
         </plugins>
     </build>
+    <!--
+    <repositories> Maven的仓库配置(可继承)。它定义了两个仓库：
+
+    spring-milestones：这是一个Spring里程碑仓库，用于存储Spring框架的稳定版本。在这个仓库中，你可以找到所有发布的、稳定的版本。这个仓库的URL是https://repo.spring.io/milestone。
+    spring-snapshots：这是一个Spring快照仓库，用于存储Spring框架的开发版本。在这个仓库中，你可以找到所有开发中的、不稳定的版本。这个仓库的URL是https://repo.spring.io/snapshot。
+    在这两个仓库中，snapshots部分的enabled属性设置为false表示该仓库不包含快照版本。同样，releases部分的enabled属性设置为false表示该仓库不包含发布版本。
+    -->
     <repositories>
         <repository>
             <id>spring-milestones</id>
@@ -81,6 +90,13 @@
             </releases>
         </repository>
     </repositories>
+    <!--
+    <pluginRepositories> Maven的插件仓库配置。它定义了两个插件仓库：
+
+    spring-milestones：这是一个Spring里程碑仓库，用于存储Spring框架的稳定版本。在这个仓库中，你可以找到所有发布的、稳定的版本。这个仓库的URL是https://repo.spring.io/milestone。
+    spring-snapshots：这是一个Spring快照仓库，用于存储Spring框架的开发版本。在这个仓库中，你可以找到所有开发中的、不稳定的版本。这个仓库的URL是https://repo.spring.io/snapshot。
+    在这两个仓库中，snapshots部分的enabled属性设置为false表示该仓库不包含快照版本。同样，releases部分的enabled属性设置为false表示该仓库不包含发布版本。
+    -->
     <pluginRepositories>
         <pluginRepository>
             <id>spring-milestones</id>
