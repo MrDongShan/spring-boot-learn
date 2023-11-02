@@ -1,4 +1,4 @@
-package com.mrdongshan.demo.hello.world;
+package com.mrdongshan.hello.world;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.mrdongshan.demo.hello.world.controller;
+package com.mrdongshan.hello.world.controller;
 
 import cn.hutool.core.util.StrUtil;
 import org.springframework.web.bind.annotation.GetMapping;
