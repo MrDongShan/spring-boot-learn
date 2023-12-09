@@ -1,0 +1,5 @@
+spring:
+  elasticsearch:
+    uris: http://172.25.233.219:9200
+es:
+  hosts: 172.25.233.219:9200

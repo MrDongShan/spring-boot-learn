@@ -1,0 +1,9 @@
+spring:
+  elasticsearch:
+    uris: http://172.25.233.219:9200
+es:
+  host: 172.25.233.219
+#  port: 9200
+#  connTimeout: 3000
+#  socketTimeout: 5000
+#  connectionRequestTimeout: 500

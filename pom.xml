@@ -20,13 +20,20 @@
         <!-- HelloWorld-->
         <module>demo-hello-world</module>
         <module>demo-netty</module>
+        <module>demo-elasticsearch</module>
+        <module>demo-elasticsearch-java</module>
+        <module>demo-elasticsearch-rest-high-level-client</module>
     </modules>
 
     <!-- 依赖版本管理 -->
     <properties>
         <java.version>1.8</java.version>
+        <spring-boot.version>2.7.18-SNAPSHOT</spring-boot.version>
         <hutool.version>5.4.5</hutool.version>
         <netty.version>4.1.86.Final</netty.version>
+        <elasticsearch-java.version>7.17.15</elasticsearch-java.version>
+        <jackson-databind.version>2.12.7.1</jackson-databind.version>
+        <jakarta.json-api.version>2.0.1</jakarta.json-api.version>
     </properties>
 
     <!-- 依赖管理 -->
@@ -45,6 +52,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
         </dependency>
     </dependencies>
 
