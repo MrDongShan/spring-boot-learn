@@ -1,0 +1,13 @@
+spring:
+  # 配置文件上传大小限制（minio文件上传）
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+minio:
+  endpoint: http://172.25.233.219:9000
+  accessKey: admin
+  secretKey: 12345678
+  bucketName: test-bucket
+server:
+  port: 8099
