@@ -25,6 +25,7 @@
         <module>demo-elasticsearch-rest-high-level-client</module>
         <module>demo-minio</module>
         <module>demo-websocket</module>
+        <module>demo-easy-websocket</module>
     </modules>
 
     <!-- 依赖版本管理 -->
@@ -36,6 +37,7 @@
         <elasticsearch-java.version>7.17.15</elasticsearch-java.version>
         <jackson-databind.version>2.12.7.1</jackson-databind.version>
         <jakarta.json-api.version>2.0.1</jakarta.json-api.version>
+        <fastjson2.version>2.0.44</fastjson2.version>
     </properties>
 
     <!-- 依赖管理 -->
