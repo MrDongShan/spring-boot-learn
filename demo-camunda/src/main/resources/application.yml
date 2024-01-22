@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+# camunda??????
+camunda.bpm:
+  admin-user:
+    id: admin  # ???
+    password: 123456  # ??
+    firstName: yu
+  filter:
+    create: All tasks
+
+# mysql????
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/camunda
+    username: root
+    password: root
+    type: com.mysql.cj.jdbc.MysqlDataSource

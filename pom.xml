@@ -26,6 +26,7 @@
         <module>demo-minio</module>
         <module>demo-websocket</module>
         <module>demo-easy-websocket</module>
+        <module>demo-camunda</module>
     </modules>
 
     <!-- 依赖版本管理 -->
