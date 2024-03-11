@@ -1,0 +1,54 @@
+2024-02-28 11:29:38.004 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.config' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.config
+    Value: "classpath:logback-spring.xml"
+    Origin: class path resource [application.yml] - 5:13
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.classpath:logback-spring.xml)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2024-02-28 14:45:10.740 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.config' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.config
+    Value: "classpath:logback-spring.xml"
+    Origin: class path resource [application.yml] - 5:13
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.classpath:logback-spring.xml)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+

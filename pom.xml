@@ -27,6 +27,10 @@
         <module>demo-websocket</module>
         <module>demo-easy-websocket</module>
         <module>demo-camunda</module>
+        <module>demo-elk</module>
+        <module>demo-postgresql</module>
+        <module>demo-ssh</module>
+        <module>demo-milvus</module>
     </modules>
 
     <!-- 依赖版本管理 -->

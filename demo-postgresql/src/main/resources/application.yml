@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    #    url: jdbc:postgresql://localhost:5432/test_db_pg
+    url: jdbc:postgresql://172.25.233.219:5432/postgres
+    username: postgres
+    password: 123456
+mybatis-plus:
+  configuration:
+    cache-enabled: true
+    use-generated-keys: true
+    default-executor-type: REUSE
+    use-actual-param-name: true
+server:
+  port: 8001
+

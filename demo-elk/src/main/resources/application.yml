@@ -1,0 +1,5 @@
+# ????  
+logging:
+  level:
+    com.mrdongshan.elk: INFO
+#    config: classpath:logback.xml
