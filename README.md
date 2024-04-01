@@ -6,9 +6,8 @@
 <br/>
 
 <div align="center">
-  <a href="https://github.com/MrDongShan/spring-boot-learn/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mfts/papermark"></a>
-  <a href="https://github.com/MrDongShan/spring-boot-learn/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache2.0-114%2C14%2C121
-"></a>
+  <a href="https://github.com/MrDongShan/spring-boot-learn/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/MrDongShan/spring-boot-learn"></a>
+  <a href="https://github.com/MrDongShan/spring-boot-learn/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache2.0-brightgreen"></a>
 </div>
 
 <br/>
