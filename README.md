@@ -35,6 +35,13 @@ This project is about integrating things I've come across while using springboot
 - Minio – middleware
 - Netty – middleware
 
+#### Basic environment
+
+- jdk 1.8
+- idea
+- maven 3.9.5
+- And the rest can be found in Pom.xml
+
 ## Getting Started
 
 ### Prerequisites
