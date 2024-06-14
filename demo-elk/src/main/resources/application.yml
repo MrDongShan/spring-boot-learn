@@ -1,5 +1,8 @@
-# ????  
+server:
+  # 指定默认端口号
+  port: 8122
+  servlet.context-path: /elk
+
 logging:
   level:
     com.mrdongshan.elk: INFO
-#    config: classpath:logback.xml
