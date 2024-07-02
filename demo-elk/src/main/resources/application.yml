@@ -6,3 +6,10 @@ server:
 logging:
   level:
     com.mrdongshan.elk: INFO
+
+spring:
+  elasticsearch:
+    uris: http://172.25.233.219:9200
+    socketTimeout: 5000
+    UserName: elastic #账号
+    Password: 123456 #你的elasticsearch密码
