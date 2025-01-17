@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>健康监测报告</title>
+    <style>
+        /*    body {
+                font-family: Arial, sans-serif;
+                color: #333;
+            }
+
+            .container {
+                width: 800px;
+                margin: auto;
+                border: 1px solid #ccc;
+                padding: 20px;
+                background-color: #ffffff;
+            }
+
+            h1, h2, h3 {
+                text-align: center;
+                color: #333;
+            }
+
+            .header-info, .table, .chart {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+            }
+
+            .header-info div {
+                margin-bottom: 5px;
+            }
+
+            .section {
+                margin-top: 20px;
+                padding: 10px;
+                background-color: #f9f9f9;
+                border: 1px solid #ddd;
+            }
+
+            .section h2 {
+                color: #007bba;
+                font-size: 1.2em;
+                padding: 5px 0;
+                border-bottom: 2px solid #007bba;
+            }
+
+            .table table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 10px;
+            }
+
+            .table th, .table td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: center;
+            }
+
+            .table th {
+                background-color: #f0f0f0;
+            }
+
+            .chart img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .circle-graph {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 10px;
+            }
+
+            .circle-graph div {
+                text-align: center;
+            }
+
+            .highlighted {
+                background-color: #e0f5ff;
+                padding: 5px;
+                border-left: 5px solid #007bba;
+            }
+
+            .summary p {
+                color: #555;
+            }
+    */
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>健康监测报告</h1>
+    <div class="header-info">
+        <div>
+            <span style="margin:10px;float: left">报告生成时间：07月01日 10:09</span>
+            <span style="margin:10px;float: left">姓名：范小崔</span>
+            <span style="margin:10px;float: left">性别：男</span>
+        </div>
+        <div>
+            <span style="margin:10px;float: left">监测日期：2024年06月01日～06月15日</span>
+            <span style="margin:10px;float: left">监测天数：14天</span>
+            <span style="margin:10px;float: left">IMEI：869266060788871</span>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>三、血氧饱和度统计</h2>
+    <div class="summary highlighted">
+        <p>[小结] 14天平均血氧饱和度：92%；平均血氧有所升高；异常血氧占比较高；</p>
+        <p>最低血氧饱和度：85%，2024-06-04 02:33；</p>
+    </div>
+    <div class="circle-graph">
+        <div>
+            <p>测量占比</p>
+            <img src="circle-chart.png" alt="占比图示" width="100">
+        </div>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>血氧饱和度</th>
+                    <th>占比</th>
+                </tr>
+                <tr>
+                    <td>≥90%</td>
+                    <td>87%</td>
+                </tr>
+                <tr>
+                    <td>71~89%</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>≤70%</td>
+                    <td>3%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="chart">
+        <img src="oxygen-chart.png" alt="血氧趋势图">
+    </div>
+</div>
+
+<div class="section">
+    <h2>四、血压趋势统计</h2>
+    <div class="summary highlighted">
+        <p>[小结] 总监测：334次；12次高血压；较比前发生高血压概率有所增高；</p>
+    </div>
+    <div class="circle-graph">
+        <div>
+            <p>测量占比</p>
+            <img src="circle-chart.png" alt="占比图示" width="100">
+        </div>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>监测结果</th>
+                    <th>次数</th>
+                    <th>占比</th>
+                </tr>
+                <tr>
+                    <td>血压正常</td>
+                    <td>230次</td>
+                    <td>81%</td>
+                </tr>
+                <tr>
+                    <td>高血压1级</td>
+                    <td>40次</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <td>高血压2级</td>
+                    <td>10次</td>
+                    <td>6%</td>
+                </tr>
+                <tr>
+                    <td>高血压3级</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="chart">
+        <img src="blood-pressure-chart.png" alt="血压趋势图">
+    </div>
+    <p style="color: #888; font-size: 0.9em;">*数据为收缩压/舒张压；收缩压正常范围140～90mmHg；舒张压范围90～60mmHg</p>
+</div>
+</div>
+</body>
+</html>

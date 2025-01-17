@@ -20,6 +20,7 @@
             <artifactId>pdfbox</artifactId>
             <version>3.0.1</version>
         </dependency>
+        <!-- 用于导出照片 -->
         <dependency>
             <groupId>org.jfree</groupId>
             <artifactId>jfreechart</artifactId>
